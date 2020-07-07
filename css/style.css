@@ -150,11 +150,13 @@ a{
 .somerec{
     font-size: 18px;
     line-height: 36px;
+    margin-top: 30px;
 }
 
 .post_img1 img {
     max-height: 380px;
     width: 100%;
+    margin-top: 30px;
 }
 
 .list_check{
@@ -166,6 +168,8 @@ a{
 .list_check li{
     position: relative;
     padding-left: 25px;
+    margin-top: 20px;
+    line-height: 36px;
 }
 
 .list_check li:before{

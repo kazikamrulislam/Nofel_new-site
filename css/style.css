@@ -2,6 +2,9 @@ img{
     max-width: 100%;
     display: block;
 }
+.article{
+    max-width: 1920px;
+}
 .container{
 max-width: 1440.5px;
 }
@@ -251,7 +254,8 @@ span{
     margin: 0 2px;
     opacity: 0.22;
 }
-button{
+
+.pst_but button{
     background-color: #FF6666;
     color: #FFFFFF;
     border: none;
@@ -260,4 +264,73 @@ button{
 }
 button:focus{
     outline: none;
+}
+
+.tripple_image_acr h1{
+    color: #000000;
+    font-size: 30px;
+    text-align: left;
+    line-height: 60px;
+
+}
+
+.tripple_image_acr h2{
+    color: #000000;
+    font-size: 24px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.tripple_image_acr span{
+    color: #6F788B;
+    font-size: 18px;
+    text-align: left;
+    line-height: 28px;
+}
+
+.befor_footer{
+    background-color: #588AEE;
+    margin-top: 60px;
+}
+
+.subs{
+    width: 100%;
+    padding: 150px 0 150px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s_title h1{
+    color: #FFFFFF;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.s_title h3{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.mail_bar{
+    width: 30%;
+    position: relative;
+}
+
+.mail_bar input{
+    width: 100%;
+    height: 49px;
+    padding: 10px;
+}
+input:focus {
+    outline: none;
+}
+.mail_bar button{
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    border: none;
+    background-color: initial;
+    margin-right: 10px;
+    padding: 10px;
 }

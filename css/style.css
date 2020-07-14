@@ -334,3 +334,19 @@ input:focus {
     margin-right: 10px;
     padding: 10px;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sociall{
+    display: flex;
+}
+.cont, .T_C, .pp, .so{
+    padding-left: 40px;
+}
+
+.so i{
+    padding-left: 10px;
+}

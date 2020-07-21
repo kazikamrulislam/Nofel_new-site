@@ -85,6 +85,7 @@ a{
     height: 80px;
     width: 80px;
     border-radius: 60px;
+    object-fit: cover;
 
 }
 
@@ -193,6 +194,7 @@ a{
 .image0 img, .image1 img{
     width: 700px;
     height: 650px;
+    object-fit: contain;
 }
 
 .image0{
@@ -220,6 +222,7 @@ padding-right: 20px;
     width: 958px;
     height: 460px;
     margin-top: 30px;
+    object-fit: contain;
 }
 .intro_cont_italic{
     font-style: italic;

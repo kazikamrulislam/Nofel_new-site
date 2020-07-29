@@ -8,9 +8,10 @@ img{
 .container{
 max-width: 1440.5px;
 }
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .navright{
     display: flex;
@@ -236,6 +237,7 @@ padding-right: 20px;
     font-size: 18px;
     line-height: 36px;
     margin-top: 15px;
+    word-break: break-all;
 }
 
 .review_bar{
@@ -352,4 +354,213 @@ input:focus {
 
 .so i{
     padding-left: 10px;
+}
+
+@media only screen and (max-width: 767px){
+    
+    .search {
+        margin-right: 20px;
+    }
+    .menu1{
+        display: none;
+    }
+
+    .navright {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .thumbnil img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .post_title h1 {
+        font-size: 20px;
+    }
+
+    .post_sub_title {
+        display: inherit;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .post_sub_title .right {
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+
+    .post_cont h1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .intro_list {
+        display: inherit;
+    }
+
+    .first_list, .second_list {
+        max-width: 100%;
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+
+    .list {
+        display: inline-block;
+    }
+
+    .post_cont .list img {
+        height: auto;
+        width: 100%;
+    }
+
+    .dual_img{
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    .image0 {
+        padding-right: 0px;
+    }
+
+    .image1 {
+        padding-left: 0px;
+        margin-top: inherit;
+    }
+
+    .image0 img, .image1 img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .tripple_image_acr h1{
+        font-size: 20px;
+    }
+
+    .row .col-md-4 {
+        margin-top: 20px;
+    }
+
+    .post_cont h1 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .country_img img {
+        width: 958px;
+        margin-top: 30px;
+        object-fit: contain;
+    }
+
+    .subs{
+        display: inline;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .s_title {
+        padding: 20px;
+    }
+
+    .s_title h1{
+        font-size: 20px;
+    }
+
+    .mail_bar input {
+        width: 100%;
+    }
+
+    .mail_bar {
+        width: 100%;
+        position: relative;
+        padding: 10px;;
+    }
+
+    .mail_bar button{
+        top: 10px;
+    }
+
+    .footer {
+        text-align: left;
+        justify-content: space-around;
+    }
+    .cont, .T_C, .pp, .so {
+        padding-left: 0px;
+    }
+    .sociall {
+        display: inline;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 991px){
+
+    .intro_list{
+        display: block;
+    }
+
+    .first_list, .second_list {
+        max-width:100%;
+    }
+
+    .dual_img {
+        margin-top: 30px;
+
+    }
+
+    .image0 img, .image1 img {
+        width: auto;
+        height: auto;
+        object-fit: contain;
+        padding: 20px;
+    }
+    .image0 {
+        padding-right: 0px;
+    }
+
+    .image1 {
+        padding-left: 0px;
+    }
+    .list {
+        display: inline-block;
+        justify-content: center;
+    }
+    
+    .subs{
+        display: block;
+        text-align: -webkit-center;
+    }
+
+    .mail_bar{
+        text-align: center;
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .footer {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .c_tag{
+        display: flex;
+        justify-content: center;
+    }
+
+    .C_right {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .sociall{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+
 }
